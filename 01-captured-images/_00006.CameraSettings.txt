@@ -1,0 +1,33 @@
+[ZWO ASI290MM Mini]
+Pan=0
+Tilt=4
+Output Format=PNG files (*.png)
+Binning=1
+Capture Area=1936x1096
+Colour Space=MONO8
+Temperature=17,5
+Discard Split Frames=On
+High Speed Mode=On
+Turbo USB=80(Auto)
+Flip=Both
+Frame Rate Limit=Maximum
+Gain=250
+Exposure=3
+Timestamp Frames=Off
+Brightness=1
+Auto Exp Max Gain=300
+Auto Exp Max Exp M S=30000
+Auto Exp Target Brightness=100
+Banding Threshold=35
+Banding Suppression=0
+Apply Flat=None
+Subtract Dark=None
+#Black Point
+Display Black Point=0
+#MidTone Point
+Display MidTone Point=0,242489270386266
+#White Point
+Display White Point=1
+Notes=
+TimeStamp=2021-05-30T22:33:18.7157912Z
+SharpCapVersion=3.2.6482.0

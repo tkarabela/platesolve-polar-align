@@ -1,0 +1,30 @@
+SIMPLE  =                    T / FITS header                                    
+BITPIX  =                    8 / Bits per entry                                 
+NAXIS   =                    0 / Number of dimensions                           
+EQUINOX =               2000.0 / Equinox of coordinates                         
+DATAMIN =                    0 / Minimum data value                             
+DATAMAX =                65535 / Maximum data value                             
+BZERO   =                  0.0 / Scaling applied to data                        
+BSCALE  =                  1.0 / Offset applied to data                         
+DATE-OBS= '2021-05-31T00:45:32'
+COMMENT 1   Written by ASTAP, Astrometric STAcking Program. www.hnsky.org
+CTYPE1  = 'RA---TAN'           / first parameter RA  ,  projection TANgential   
+CTYPE2  = 'DEC--TAN'           / second parameter DEC,  projection TANgential   
+CUNIT1  = 'deg     '           / Unit of coordinates                            
+CRPIX1  =  9.685000000000E+002 / X of reference pixel                           
+CRPIX2  =  5.445000000000E+002 / Y of reference pixel                           
+CRVAL1  =  2.547883590010E+002 / RA of reference pixel (deg)                    
+CRVAL2  =  8.842816716930E+001 / DEC of reference pixel (deg)                   
+CDELT1  = -5.787194181598E-004 / X pixel size (deg)                             
+CDELT2  =  5.786606261963E-004 / Y pixel size (deg)                             
+CROTA1  = -9.441583659361E+001 / Image twist of X axis        (deg)             
+CROTA2  = -9.441205397695E+001 / Image twist of Y axis        (deg)             
+CD1_1   =  4.452018341177E-005 / CD matrix to convert (x,y) to (Ra, Dec)        
+CD1_2   =  5.769428773052E-004 / CD matrix to convert (x,y) to (Ra, Dec)        
+CD2_1   =  5.770044351859E-004 / CD matrix to convert (x,y) to (Ra, Dec)        
+CD2_2   = -4.455374997251E-005 / CD matrix to convert (x,y) to (Ra, Dec)        
+PLTSOLVD=                    T / ASTAP internal solver      
+COMMENT 7  Solved in 0.1 sec. Offset was 3.2°. Mount offset RA=, DEC=
+COMMENT cmdline:astap -f ./01-captured-images/_00024.png -o ./03-astap-analysis/
+COMMENT _00024 -fov 0.63 -ra 0.0 -dec 90.0 -annotate
+END                                                                             
