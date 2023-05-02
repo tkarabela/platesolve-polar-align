@@ -22,3 +22,7 @@ jupyter notebook
 
 - https://github.com/ThemosTsikas/PhotoPolarAlign
 - https://www.sharpcap.co.uk/sharpcap/features/polar-alignment
+
+## License
+
+The source code in this repository is released into the public domain. See [LICENSE.txt](./LICENSE.txt) for details.
